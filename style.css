@@ -1,0 +1,105 @@
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .bar {
+    width: 100%;
+    padding: 12px;
+  }
+  
+  .bar-fill {
+    height: 15px;
+    display: block;
+    background: #1E40AF;
+    width: 0%;
+    border-radius: 8px;
+    -webkit-transition: width 0.8s ease;
+    transition: width 0.8s ease;
+    -webkit-animation: mymove 5s;
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+    position: relative;
+  }
+  
+  .bar-fill:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+    background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+    z-index: 1;
+    -webkit-background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    background-size: 50px 50px;
+    -webkit-animation: move 2s linear infinite;
+    -moz-animation: move 2s linear infinite;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomright: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .bar-unfill {
+    height: 15px;
+    display: block;
+    background: rgba(255,255,255,0.8);
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes mymove {
+    from {
+      width: 0%;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Standard syntax */
+  @keyframes mymove {
+    from {
+      width: 0%;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+  
+  @-webkit-keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+  
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  
+  @keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+  
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  
