@@ -11,9 +11,11 @@ This project is a clone of the [remove.bg](https://www.remove.bg/) UI built usin
 ptimized for use on various devices.
 
 ## Demo
-<img wi<img width="1440" alt="Screenshot 2024-10-14 at 15 44 33" src="https://github.com/user-attachments/assets/6297970d-745d-49c2-b47c-b8ad4e298960">
-dth="1440" alt="Screenshot 2024-10-14 at 15 44 38" src="https://github.com/user-attachments/assets/ae2f05aa-c96f-4613-b64d-b1f3586807da">
-<img width="1440" alt="Screenshot 2024-10-14 at 15 44 53" src="https://github.com/user-attachments/assets/b20f9fe1-966a-498c-9963-d6ea8ca75e69">
+<img width="1440" alt="Screenshot 2024-10-14 at 15 44 33" src="https://github.com/user-attachments/assets/a76569cd-f751-4134-82f5-b0e4a7bb4d7c">
+
+<img width="1440" alt="Screenshot 2024-10-14 at 15 44 38" src="https://github.com/user-attachments/assets/d9fe06df-808b-47de-b1a2-fdac631120cf">
+
+<img width="1440" alt="Screenshot 2024-10-14 at 15 44 53" src="https://github.com/user-attachments/assets/3371e7ab-68fb-4944-a452-7af4e9ca1b24">
 
 
 ## Tech Stack
